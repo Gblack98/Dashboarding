@@ -365,3 +365,17 @@ if uploaded_zip:
     if st.checkbox("Afficher un aperçu des données"):
         st.subheader("Aperçu du Dataset")
         st.dataframe(data.head(), height=300)
+
+# --- Footer personnalisé ---
+st.markdown("""
+    <div class="footer">
+      <p>
+        Développé par <strong>IBRAHIMA GABAR DIOP</strong> – Développeur Data • 
+        Retrouvez-moi sur <a href="https://www.linkedin.com/in/ibrahima-gabar-diop-730537237/" target="_blank">LinkedIn</a> • 
+        Consultez mon <a href="https://portfolio-igd.onrender.com" target="_blank">Portfolio</a> • 
+        Retrouvez mon code sur <a href="https://github.com/Gblack98" target="_blank">GitHub</a> • 
+        Pour suggestions et questions : <a href="mailto:gabardiop1@outlook.com">gabardiop1@outlook.com</a>
+      </p>
+    </div>
+""", unsafe_allow_html=True)
+
