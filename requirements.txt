@@ -134,7 +134,7 @@ patsy==1.0.1
 pexpect==4.9.0
 pillow==11.1.0
 platformdirs==4.3.6
-plotly==6.0.0
+plotly>=5.5.0,<6.0.0
 plotly-resampler==0.10.0
 pmdarima==2.0.4
 prometheus_client==0.21.1
